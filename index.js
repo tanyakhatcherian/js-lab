@@ -177,6 +177,8 @@ function runAll (num) {
     return perOf
 }
 
+runAll(10)
+
 
 
 //DOM Exercise:
@@ -219,6 +221,6 @@ let eleNine = document.querySelector(`#ex9`)
 eleNine.textContent = `The area for a circle with radius 7 is ${areaOfCircle(7).toFixed(2)}.`
 
 let eleTen= document.querySelector(`#ex10`)
-eleTen.textContent = runAll(10)
+eleTen.textContent = `Half of 10 is ${halfNumber(10)}. The square root of the number 5 is ${squareNumber(5)}. The area for a circle with radius 25 is ${areaOfCircle(25).toFixed(2)}. 1963.50 is ${percentOf(1963,25)} % of 25.`
 // figure out how to get the strings to transfer over
-
+//rocco is this right lol
